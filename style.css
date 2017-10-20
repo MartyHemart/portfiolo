@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  /*background-image:url(img/footer_lodyas.png);*/
+}
+
+.menu-nav {
+
+  display: inline-block;
+  list-style-type: none;
+  position: fixed;
+
+}
+
+.flex-container-perso {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+.logonom {
+
+
+  width: 51%;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 5rem;
+
+}
+
+
+.flex {
+  padding: 10px;
+
+}
+
+
+.section-flex {
+
+  padding-left: auto;
+  display: flex;
+  margin: 0px;
+  height: 100vh;
+
+
+}
+
+.text-1 {
+
+  padding-right: 170px;
+}
+
+.text-2 {
+  padding-left: 170px;
+}
+
+
+/* ############## background fond HV ################## */
+.background {
+
+  background: -webkit-linear-gradient(112deg, rgb(85, 91, 96), rgb(10, 85, 160));
+  background: linear-gradient(112deg, rgb(85, 91, 96), rgb(10, 85, 160));
+
+}
+
+.background2 {
+
+  background: -webkit-linear-gradient(112deg, rgb(113, 205, 157), rgb(4, 35, 66));
+background: linear-gradient(112deg, rgb(113, 205, 157), rgb(4, 35, 66));
+
+}
+
+/* ############## background fond HV ################## */
+
+.flex-wrap {
+  flex-wrap: wrap;
+
+}
+
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+.half-size {
+  width: 50%;
+
+}
+
+.min-size-small {
+
+  min-width: 400px;
+  justify-content: center;
+}
+
+@media screen and (max-whith: 800px){
+
+  .flex-container-perso{
+    padding-top: 1%;
+  }
+
+  .section-flex {
+    padding-left:  2px;
+    padding-right:  2px;
+  }
+
+}
+
+/* #################### Menu Ancre ######################## */
+
+.ancrenav {
+
+ padding: 0px;
+ text-align: center;
+
+}
+
+/* #################### Fin Menu Ancre ######################## */
+
+/* ####################Debut du footer ####################*/
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background: #c5c5c8;
+  padding: 100px;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.contact-info {
+width: 33%;
+
+
+
+}
+
+
+/* ####################Fin du footer ####################*/

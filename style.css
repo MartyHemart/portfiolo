@@ -124,7 +124,7 @@ background: linear-gradient(112deg, rgb(113, 205, 157), rgb(4, 35, 66));
 /* ####################Debut du footer ####################*/
 
 footer {
-  display: flex;
+  display: flex!important;
   align-items: center;
   justify-content: flex-end;
   background: #c5c5c8;
